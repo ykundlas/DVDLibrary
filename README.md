@@ -6,22 +6,22 @@ Project Web Service - http://dvd-library.us-east-1.elasticbeanstalk.com
 
 REST Endpoints:
 
-"/dvd/{id}" - GET : Returns a specific DVD ;
+"/dvd/{id}" - GET : Returns a specific DVD 
 
-"/dvds" - GET : Returns a list of all DVDs ;
+"/dvds" - GET : Returns a list of all DVDs 
 
-"/dvds/title/{title}" - GET : Returns a list of DVDs that have a matching title ;
+"/dvds/title/{title}" - GET : Returns a list of DVDs that have a matching title 
 
-"/dvds/year/{releaseYear}" - GET : Returns a list of DVDs that have a matching release year ;
+"/dvds/year/{releaseYear}" - GET : Returns a list of DVDs that have a matching release year 
 
-"/dvds/director/{directorName}" - GET : Returns a list of DVDs that have a matching director name ;
+"/dvds/director/{directorName}" - GET : Returns a list of DVDs that have a matching director name 
 
-"/dvds/rating/{rating}" - GET : Returns a list of DVDs that have a matching rating ;
+"/dvds/rating/{rating}" - GET : Returns a list of DVDs that have a matching rating 
 
-"/dvd" - POST : Send a JSON with the representation of a DVD. Returns a newly created DVD with it's ID ;
+"/dvd" - POST : Send a JSON with the representation of a DVD. Returns a newly created DVD with it's ID 
 
-"/dvd/{id}" - PUT : Send a JSON with the representation of a DVD. It will edit the DVD fields of the DVD with the given ID ;
+"/dvd/{id}" - PUT : Send a JSON with the representation of a DVD. It will edit the DVD fields of the DVD with the given ID 
 
-"/dvd/{id}" - DELETE : Deletes the DVD with the given ID.
+"/dvd/{id}" - DELETE : Deletes the DVD with the given ID
 
 
